@@ -1,5 +1,5 @@
 # GLOBAL SOLUTION - Soluções em Energias Renováveis e Sustentáveis
-Projeto: combinação Análise de Dados (A) + Simulação de Energias Renováveis (C)
+Projeto: combinação Análise de Dados  + Simulação de Energias Renováveis 
 
 ## Resultados chave (resumo)
 - Consumo médio em horário de expediente (kWh/dia): 26.86

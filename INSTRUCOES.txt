@@ -1,1 +1,6 @@
-INSTRUÇÕES: Este zip contém o projeto completo. Siga o README.md.
+lEMBRE-SE DE BAIXAR AS DEPENDENCIAS NO TERMINAL PARA O PROJETO FUNCIONAR
+
+
+1-Instale os pacotes Python
+ pip install -r requirements.txt
+ 
