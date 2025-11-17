@@ -1,6 +1,68 @@
 lEMBRE-SE DE BAIXAR AS DEPENDENCIAS NO TERMINAL PARA O PROJETO FUNCIONAR
 
 
-1-Instale os pacotes Python
- pip install -r requirements.txt
- 
+===============================
+INSTRUÇÕES DE EXECUÇÃO DO PROJETO
+Global Solution – Energias Renováveis
+===============================
+
+1- ENTRAR NA PASTA DO PROJETO
+--------------------------------
+Abra o terminal e entre na pasta principal do projeto:
+
+cd GS-Energias-Renovaveis
+
+
+2- INSTALAR DEPENDÊNCIAS
+--------------------------------
+Antes de rodar os scripts, instale as bibliotecas necessárias:
+
+pip install -r requirements.txt
+
+
+3- RODAR A ANÁLISE DE CONSUMO
+--------------------------------
+Este comando executa a análise de dados, gera o resumo e salva os gráficos dentro da pasta "analysis/":
+
+python Cod-Py/analyze_consumption.py
+
+
+4- RODAR A SIMULAÇÃO SOLAR
+--------------------------------
+Este comando calcula o tamanho do sistema fotovoltaico, economia e payback:
+
+python Cod-Py/solar_simulation.py
+
+
+5- LOCALIZAÇÃO DOS ARQUIVOS GERADOS
+-----------------------------------------
+Os gráficos gerados pela análise ficam em:
+
+analysis/hourly_profile.png
+analysis/daily_sample.png
+
+Os dados utilizados ficam em:
+
+data/consumo_simulado_90dias.csv
+
+
+6- ESTRUTURA DO PROJETO
+--------------------------------
+GS-Energias-Renovaveis/
+│
+├── Cod-Py/
+│   ├── analyze_consumption.py
+│   └── solar_simulation.py
+│
+├── data/
+│   └── consumo_simulado_90dias.csv
+│
+├── analysis/
+│   ├── hourly_profile.png
+│   └── daily_sample.png
+│
+├── README.md
+├── INSTRUCOES.txt
+└── requirements.txt
+
+
