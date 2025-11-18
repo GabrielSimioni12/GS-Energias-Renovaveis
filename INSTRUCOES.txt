@@ -11,6 +11,7 @@ Global Solution – Energias Renováveis
 Abra o terminal e entre na pasta principal do projeto:
 
 cd GS-Energias-Renovaveis
+(caso vc ja esteja ignore essa parte)
 
 
 2- INSTALAR DEPENDÊNCIAS
